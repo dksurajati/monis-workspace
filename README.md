@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# monis-workspace
 
-## Getting Started
+An interactive workspace designer built for the Desent Developer Challenge for monis.rent, a workspace rental service for digital nomads and startups in Bali.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Live Website:** https://monis-workspace-rho.vercel.app
+- **GitHub Repository:** https://github.com/dksurajati/monis-workspace
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+monis-workspace allows users to customize a workspace by selecting furniture and accessories and previewing their setup visually. The goal is to make choosing a workspace more interactive and engaging than browsing a traditional product catalog.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Choose between two desk options.
+- Choose between two chair options.
+- Add or remove workspace accessories.
+- Preview the workspace as selections change.
+- View the selected setup and estimated monthly rental price.
+- Responsive layout for desktop and mobile screens.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js** — React framework for the application.
+- **TypeScript** — Type-safe JavaScript.
+- **Tailwind CSS** — Styling and responsive layouts.
+- **Vercel** — Deployment and hosting.
+- **Git and GitHub** — Version control and source code hosting.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Approach
 
-## Deploy on Vercel
+I focused on building a visually engaging and user-friendly workspace customization experience. The interface uses a warm, minimal color palette inspired by modern workspaces in Bali, with a live preview that responds to the user's selections.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The workspace preview is built with frontend elements and CSS styling to represent the furniture and accessories without requiring a complex 3D rendering system.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## What I Would Improve With More Time
+
+- Use realistic product images or more detailed furniture illustrations.
+- Improve the positioning and scaling of workspace elements across different screen sizes.
+- Add drag-and-drop functionality for placing accessories.
+- Add a more complete rental checkout flow.
+- Improve accessibility and test the interface on a wider range of devices.
+
+## Run Locally
+
+Requirements: Node.js and npm.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dksurajati/monis-workspace.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd monis-workspace
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open http://localhost:3000 in your browser.
+
+## Deployment
+
+The application is deployed on Vercel and connected to the GitHub repository.
